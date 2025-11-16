@@ -6,7 +6,7 @@ Both scanners use Nmap through Python’s `subprocess` module and read their tar
 The project includes:
 
 - **scanner_full ports.py** - scans **all ports** (`-p-`)
-- **scanner_common.py** - scans **most commonly used ports** (faster)
+- **scanner_popular.py** - scans **most commonly used ports** (faster)
 
 ---
 
