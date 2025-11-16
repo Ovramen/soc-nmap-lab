@@ -6,7 +6,7 @@ Both scanners use Nmap through Python’s `subprocess` module and read their tar
 The project includes:
 
 - **scanner_full ports.py** - scans **all ports** (`-p-`)
-- **scanner_popular.py** - scans **most commonly used ports** (faster)
+- **scanner_popular ports.py** - scans **most commonly used ports** (faster)
 
 ---
 
@@ -58,17 +58,17 @@ No comments, no quotes, no commas.
 
 ### Full Port Scan (slower)
 
-python scanner_full.py
+python scanner_full ports.py
 
 
 ### Common Ports Scan (faster)
 
-python scanner_common.py
+python scanner_popular ports.py
 
 
 ---
 
-## scanner_full.py (Description)
+## scanner_full ports.py (Description)
 
 - Reads targets from `targets.txt`
 - Runs:
@@ -79,7 +79,7 @@ nmap -p- <target>
 
 ---
 
-## scanner_common.py (Description)
+## scanner_popular ports.py (Description)
 
 - Reads targets from `targets.txt`
 - Scans a predefined list of common ports (80, 443, 22, 53, etc.)

@@ -1,2 +1,0 @@
-# Only standard Python + external tool used by subprocess + IP list added to the targets.txt
-python-nmap
